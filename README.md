@@ -1,5 +1,3 @@
-<div align="center">
-
 # ☸️ Rapport de Labs Kubernetes - K3s
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.36+-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
