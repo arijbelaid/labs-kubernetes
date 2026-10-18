@@ -1,8 +1,22 @@
+<div align="center">
+
 # ☸️ Rapport de Labs Kubernetes - K3s
 
-Bienvenue sur mon dépôt contenant l'ensemble des travaux pratiques réalisés sur un cluster Kubernetes K3s (1 master, 2 workers). 
+![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.36+-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-Cluster-FFC61C?style=for-the-badge&logo=rancher&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Terminé-success?style=for-the-badge)
 
-Ce projet couvre les chapitres 3 à 6 du cours, allant de l'exposition d'applications jusqu'aux patterns multi-conteneurs avancés.
+### 📄 [👉 TÉLÉCHARGER LE RAPPORT COMPLET (PDF) 👈](./labs_kubernetes.pdf)
+## 📖 À propos de ce projet
+
+Ce dépôt regroupe l'intégralité de mes travaux pratiques (Labs 3.1 à 6.2) réalisés sur un cluster Kubernetes K3s (architecture 1 Master / 2 Workers). 
+
+L'objectif de ces labs était de passer de la théorie à la pratique en maîtrisant le cycle de vie complet d'une application conteneurisée. À travers des scénarios concrets et des exercices de dépannage (troubleshooting), j'ai couvert :
+*   **L'exposition réseau** : Services (ClusterIP, NodePort, LoadBalancer) et routage avancé avec l'Ingress Controller Traefik.
+*   **La configuration** : Injection de variables et fichiers via ConfigMaps et Secrets.
+*   **La gestion des ressources** : Définition des Requests/Limits, compréhension des OOMKilled et sécurisation via ResourceQuota.
+*   **Le stockage persistant** : Gestion des volumes (PV, PVC, emptyDir) et déploiement de bases de données avec des StatefulSets.
+*   **L'automatisation et les patterns** : Tâches ponctuelles et planifiées (Jobs/CronJobs), et architectures multi-conteneurs (Init, Sidecar, Ambassador).
 
 ## 📂 Structure du Dépôt
 - 📁 **`lab3.1/`** à **`lab6.2/`** : Contiennent tous les fichiers manifestes YAML utilisés.
